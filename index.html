@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <link rel="icon" type="image/x-icon" href="https://thumbs.dreamstime.com/b/rhinoceros-cartoon-illustration-yellow-background-270738689.jpg">
+    <title>RhinoType</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>
+        RhinoType
+        </h1>
+        <div id="header">
+            <div id="info"></div>
+            <div id="buttons">
+                <button id="newGameBtn"><span style="font-size: 20px;">⟲</span></button>
+            </div>
+        </div>
+        <div id="game" tabindex="0">
+            <div id="words"></div>
+            <div id="cursor"></div>
+            <div id="focus-error">Click here to focus</div>
+        </div>
+
+        <div id="results-overlay">
+            <div id="results-card">
+                <div id="results-title">Time's up!</div>
+                <div id="results-stats">
+                    <div class="stat-block">
+                        <div class="stat-label">WPM</div>
+                        <div class="stat-value" id="result-wpm">—</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-block">
+                        <div class="stat-label">Best</div>
+                        <div class="stat-value" id="result-best">—</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-block">
+                        <div class="stat-label">Accuracy</div>
+                        <div class="stat-value" id="result-accuracy">—</div>
+                    </div>
+                </div>
+                <div id="new-record-badge" style="display:none">🏆 New Record!</div>
+                <button id="resultsNewGameBtn">Play Again</button>
+            </div>
+        </div>
+    </main>
+    <script src="typing.js"></script>
+</body>
+</html>
