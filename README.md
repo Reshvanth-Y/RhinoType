@@ -28,6 +28,7 @@ Navigation: Use Backspace to correct errors in the current word or move back to 
 Monkeytype: For the legendary UI design and user experience inspiration.
 
 
+Completly Vibecoded and many changes were made manually
 
 
 
