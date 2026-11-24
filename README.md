@@ -27,8 +27,6 @@ Navigation: Use Backspace to correct errors in the current word or move back to 
 <h2>🤝 Credits</h2>
 Monkeytype: For the legendary UI design and user experience inspiration.
 
-<h3><b>Completly Vibecoded and many changes were made manually</b></h3>
-
 
 
 
